@@ -4,7 +4,7 @@ Sistema de videovigilancia con ESP32CAM en Arduino IDE, para este caso usaremos 
 
 *************************************************************************************
 # Objetivo
-Crear un sistema de videovigilancia la cual nos notifique mediante Telegram si alguien entra a un cuarto o no, al momento de detectar un "intruso" notificar de inmediato y grabar todos los movimientos/acciones que haga.
+Crear un sistema de vigilancia de la cual podemos acceder en tiempo real que es lo que esta pasando en un lugar determinado, notificandonos mediante Telegram si alguien entra a un cuarto o no, al momento de detectar **movimiento** notificar de inmediato y grabar todos los movimientos/acciones que haga.
 *************************************************************************************************
 
 # Componentes
