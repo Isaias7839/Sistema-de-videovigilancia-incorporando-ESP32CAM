@@ -22,7 +22,7 @@ Para las dos ESP32CAM necesitaras ArduinoJSON:
 
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
 
-Esta liga la pegaras en el apartado  File > Preferences > Additional Boards Manager URLs;
+Esta liga la pegaras en el apartado  `File` > `Preferences` > `Additional Boards Manager URLs`;
 Con esta liga podras acceder a las librerias necesarias para la utilización de ESP32CAM
 
 ESP32CAM detección de movimiento:
@@ -34,7 +34,7 @@ ESP32CAM detección de movimiento:
 
 # Motion Detection CAM
 
-Para acceder al codigo deberas ir al apartado File > Examples > EloquentSurveillance > MotionDetectionTelegramExample;
+Para acceder al codigo deberas ir al apartado `File` > `Examples` > `EloquentSurveillance` > `MotionDetectionTelegramExample`;
 Dentro del codigo modificaras con tu propia información:
 * WIFI_SSID
 * WIFI_PASS
@@ -46,8 +46,8 @@ Para crear un bot en telegram usa BotFather (al crear un Bot te dara tu Bot toke
 
 ***********************************************************************************
 
-# Web server CAM
-Para el correcto funcionamiento del sistema de videovigilancia será necesario programar el dispositivo con el código correspondiente.
+# Web Server CAM
+Para el correcto funcionamiento del sistema de videovigilancia será necesario programar y posteriormente confirgurar el dispositivo con el código correspondiente.
 
 *ESPCAM WEBSEREVER*
 * **ESP32-CAM_MJPEG2SD** by s60sc.
@@ -56,5 +56,12 @@ Lo puedes encontrar en el siguiente enlace:
 
 https://github.com/s60sc/ESP32-CAM_MJPEG2SD
 
-Una vez estando en el repositorio deberás **descargar como ZIP** el código del repositorio.
+**Instalación y configuración**
 
+Descargue los archivos de github en la carpeta de bocetos de Arduino IDE.
+Dentro del código selecciona la placa ESP-CAM requerida usando `CAMERA_MODEL_` en `appGlobals.h` a menos que uses la predeterminada:
+* Tarjeta ESP32 Cam - `CAMERA_MODEL_AI_THINKER`.
+
+De la misma manera, dentro de `utils.cpp` modificaremos el código con la información de nuestra red, esto es:
+* WIFI_SSID
+* WIFI_PASS
