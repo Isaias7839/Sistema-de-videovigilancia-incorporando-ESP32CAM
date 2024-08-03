@@ -1,6 +1,6 @@
 # Sistema-de-videovigilancia-incorporando-ESP32CAM
 
-Sistema de videovigilancia con ESP32CAM en Arduino IDE, para este caso usaremos dos ESP32CAM (se pueden implementar mas), una de ellas la cual es para detección de movimiento y la otra como webserver.
+Sistema de videovigilancia con ESP32CAM en Arduino IDE, para este caso usaremos dos ESP32CAM (se pueden implementar más), una de ellas la cual es para detección de movimiento y la otra como webserver.
 
 <img src="Extras/GRAB.jpg" width="500" height="400">
 
@@ -46,8 +46,10 @@ Dentro del codigo modificaras con tu propia información:
 * CHAT_ID
   
 Dentro del codigo en la linea 30 cambiar **camera.mswide();** por **camera.aithinker();** ya que el modelo de nuestra camara es AI Thinker ESP32-CAM.
-Para crear un bot en telegram usa BotFather (al crear un Bot te dara tu Bot token), y para obtener tu chat ID usa IDBot.
+Para crear un bot en telegram usa BotFather (al crear un Bot te dara tu Bot token), y para obtener tu chat ID usa IDBot. 
+Adjuntamos el siguiente link con un tutorial que detalla los pasos para la creación de un bot de Telegram. 
 
+https://www.lead2team.com/academy/telegram-business/bot-de-telegram/
 ***********************************************************************************
 
 # Web Server CAM
