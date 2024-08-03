@@ -49,12 +49,12 @@ Para crear un bot en telegram usa BotFather (al crear un Bot te dara tu Bot toke
 # Web Server CAM
 Para el correcto funcionamiento del sistema de videovigilancia será necesario programar y posteriormente confirgurar el dispositivo con el código correspondiente.
 
-*ESPCAM WEBSEREVER*
+*ESPCAM WEBSERVER*
 * **ESP32-CAM_MJPEG2SD** by s60sc.
 
 Lo puedes encontrar en el siguiente enlace:
 
-https://github.com/s60sc/ESP32-CAM_MJPEG2SD
+[ESP32-CAM_MJPEG2SD](https://github.com/s60sc/ESP32-CAM_MJPEG2SD)
 
 **Instalación y configuración**
 
