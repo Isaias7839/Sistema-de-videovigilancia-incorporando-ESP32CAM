@@ -70,3 +70,5 @@ Dentro del código selecciona la placa ESP-CAM requerida usando `CAMERA_MODEL_` 
 De la misma manera, dentro de `utils.cpp` modificaremos el código con la información de nuestra red, esto es:
 * WIFI_SSID
 * WIFI_PASS
+
+<img src="Extras/INT.png" width="500" height="400"> 
