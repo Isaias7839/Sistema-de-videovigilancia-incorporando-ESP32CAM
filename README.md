@@ -60,10 +60,12 @@ Lo puedes encontrar en el siguiente enlace:
 
 Descargue los archivos de github en la carpeta de bocetos de Arduino IDE.
 
-<img src="extras/WEBSERVER.png">
+<img src="Extras/WEBSERVER.png" width="500" height="400">
 
 Dentro del código selecciona la placa ESP-CAM requerida usando `CAMERA_MODEL_` en `appGlobals.h` a menos que uses la predeterminada:
 * Tarjeta ESP32 Cam - `CAMERA_MODEL_AI_THINKER`.
+
+ <img src="Extras/APP.png" width="500" height="400"> 
 
 De la misma manera, dentro de `utils.cpp` modificaremos el código con la información de nuestra red, esto es:
 * WIFI_SSID
