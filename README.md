@@ -28,3 +28,12 @@ ESP32CAM detección de movimiento:
 * **EloquentSurveillance** by Simone Salerno
 * **UniversalTelegramBot** by Brian Lough
 
+Para acceder al codigo deberas ir al apartado File > Examples > EloquentSurveillance > MotionDetectionTelegramExample;
+Dentro del codigo modificaras con tu propia información:
+* WIFI_SSID
+* WIFI_PASS
+* BOT_TOKEN
+* CHAT_ID
+  
+Dentro del codigo en la linea 30 cambiar **camera.mswide();** por **camera.aithinker();** ya que el modelo de nuestra camara es AI Thinker ESP32-CAM.
+Para crear un bot en telegram usa BotFather (al crear un Bot te dara tu Bot token), y para obtener tu chat ID usa IDBot.
