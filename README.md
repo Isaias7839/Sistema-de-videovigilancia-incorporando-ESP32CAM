@@ -44,5 +44,17 @@ Dentro del codigo modificaras con tu propia información:
 Dentro del codigo en la linea 30 cambiar **camera.mswide();** por **camera.aithinker();** ya que el modelo de nuestra camara es AI Thinker ESP32-CAM.
 Para crear un bot en telegram usa BotFather (al crear un Bot te dara tu Bot token), y para obtener tu chat ID usa IDBot.
 
+***********************************************************************************
 
+# Web server CAM
+Para el correcto funcionamiento del sistema de videovigilancia será necesario programar el dispositivo con el código correspondiente.
+
+*ESPCAM WEBSEREVER*
+* **ESP32-CAM_MJPEG2SD** by s60sc.
+
+Lo puedes encontrar en el siguiente enlace:
+
+https://github.com/s60sc/ESP32-CAM_MJPEG2SD
+
+Una vez estando en el repositorio deberás **descargar como ZIP** el código del repositorio.
 
