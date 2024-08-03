@@ -1,6 +1,6 @@
 # Sistema-de-videovigilancia-incorporando-ESP32CAM
 
-Sistema de vigilancia con ESP32CAM en Arduino IDE, para este caso usaremos dos ESP32CAM (se pueden implementar mas), una de ellas la cual es para detección de movimiento y la otra como webserver.
+Sistema de vigilancia con ESP32CAM en Arduino IDE, para este caso usaremos dos ESP32CAM (se pueden implementar más), una de ellas la cual es para detección de movimiento y la otra como webserver.
 
 # Objetivo
 Crear un sistema de vigilancia la cual nos notifique mediante Telegram si alguien entra en un cuarto o no, al momento de detectar un "intruso" notificar de inmediato y grabar todos los movimientos/acciones que haga.
