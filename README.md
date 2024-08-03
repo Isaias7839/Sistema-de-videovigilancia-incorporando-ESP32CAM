@@ -2,9 +2,12 @@
 
 Sistema de videovigilancia con ESP32CAM en Arduino IDE, para este caso usaremos dos ESP32CAM (se pueden implementar mas), una de ellas la cual es para detección de movimiento y la otra como webserver.
 
+<img src="Extras/GRAB.jpg" width="500" height="400">
+
+<img src="Extras/TEL.jpg" width="500" height="400">
 *************************************************************************************
 # Objetivo
-Crear un sistema de vigilancia de la cual podemos acceder en tiempo real que es lo que esta pasando en un lugar determinado, notificandonos mediante Telegram si alguien entra a un cuarto o no, al momento de detectar **movimiento** notificar de inmediato y grabar todos los movimientos/acciones que haga.
+Crear un sistema de videovigilancia que permita el acceso en tiempo real para monitorear lo que ocurre en un lugar específico. El sistema enviará notificaciones a través de Telegram cuando se detecte la entrada de una persona en una habitación. Al detectar **movimiento**, el sistema notificará de inmediato y grabará todas las acciones y movimientos realizados.
 *************************************************************************************************
 
 # Componentes
@@ -74,6 +77,9 @@ De la misma manera, dentro de `utils.cpp` modificaremos el código con la inform
 <img src="Extras/INT.png" width="500" height="400"> 
 
 
+Después de programar y configurar la ESP32CAM con los pasos anteriores es necesario insertar una tarjeta memoria micro SD (preferentemente de 8 GB de capacidad o superior) configurada de la siguiente manera:
+
+* Del código anteriormente descargado, localizar la carpeta `data` y copiarla a la tarjeta de memoria micro SD.
 ***************************************************************************************************************************
 
 Este proyecto fue realizado en el marco del curso IoT Essentials Developer impartido por [Codigo IoT](https://www.codigoiot.com/) y organizado por la [Asociación Mexicana del Internet de las Cosas](https://www.asociacioniot.org/).
