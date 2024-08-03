@@ -23,8 +23,10 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 Esta liga la pegaras en el apartado  File > Preferences > Additional Boards Manager URLs.
 
+
 ESP32CAM detección de movimiento:
 * **EloquentSurveillance** by Simone Salerno
 * **UniversalTelegramBot** by Brian Lough
 
-
+# Servidor web del ESP32CAM - Procedimiento de programación
+Para el correcto funcionamiento del sistema de vigilancia, es necesario programar los dispositivos con los códigos correspondientes. Los códigos utilizados para este proyecto
