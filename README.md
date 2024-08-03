@@ -28,5 +28,3 @@ ESP32CAM detección de movimiento:
 * **EloquentSurveillance** by Simone Salerno
 * **UniversalTelegramBot** by Brian Lough
 
-# Servidor web del ESP32CAM - Procedimiento de programación
-Para el correcto funcionamiento del sistema de vigilancia, es necesario programar los dispositivos con los códigos correspondientes. Los códigos utilizados para este proyecto
