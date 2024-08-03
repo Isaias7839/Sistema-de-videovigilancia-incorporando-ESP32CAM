@@ -72,3 +72,9 @@ De la misma manera, dentro de `utils.cpp` modificaremos el código con la inform
 * WIFI_PASS
 
 <img src="Extras/INT.png" width="500" height="400"> 
+
+
+***************************************************************************************************************************
+
+Este proyecto fue realizado en el marco del curso IoT Essentials Developer impartido por [Codigo IoT](https://www.codigoiot.com/) y organizado por la [Asociación Mexicana del Internet de las Cosas](https://www.asociacioniot.org/).
+
