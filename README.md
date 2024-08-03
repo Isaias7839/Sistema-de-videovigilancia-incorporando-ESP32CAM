@@ -83,6 +83,44 @@ De la misma manera, dentro de `utils.cpp` modificaremos el código con la inform
 Después de programar y configurar la ESP32CAM con los pasos anteriores es necesario insertar una tarjeta memoria micro SD (preferentemente de 8 GB de capacidad o superior) configurada de la siguiente manera:
 
 * Del código anteriormente descargado, localizar la carpeta `data` y copiarla a la tarjeta de memoria micro SD.
+
+## Función principal
+
+Una grabación se genera cuando la propia cámara detecta movimiento, o manteniendo alto un pin determinado (que se mantiene bajo por pulldown interno cuando se libera), por ejemplo utilizando un sensor de movimiento activo alto como PIR.
+Además, se puede solicitar una grabación manualmente mediante el botón **Iniciar grabación** de la página web.
+
+Para reproducir una grabación, seleccione el archivo mediante el botón de la barra lateral **Reproducción y transferencia de archivos** para seleccionar la carpeta del día y, a continuación, el archivo AVI deseado.
+Una vez seleccionado el archivo AVI, pulse el botón **Iniciar reproducción** para reproducir la grabación. 
+El botón **Iniciar transmisión** muestra una transmisión sólo de vídeo en directo desde la cámara. 
+
+### Página web de configuración
+
+Acceso a más detalles de configuración a través de la pestaña **Editar Config**, que muestra más botones:
+
+**WiFi**:
+Ajustes adicionales de WiFi y servidor web.
+
+**Movimiento**: 
+La propia cámara puede generar una grabación AVI detectando movimiento mediante el archivo `motionDetect.cpp`. 
+
+**Periféricos** Ej:
+* Seleccionar si se va a utilizar un sensor PIR o radar (que también se puede utilizar en paralelo con la detección de movimiento por cámara).
+* Encendido automático de la lámpara para la detección nocturna PIR.
+* Control de pan / tilt para la cámara.
+* Conectar un micrófono.
+* Monitorizar el voltaje de la batería en el pin ADC.
+* Despertar en LDR después de sueño profundo en la noche.
+
+  ### Hub de cámaras
+
+Esta pestaña permite acceder a las interfaces web de otros dispositivos de cámara ESP32-CAM_MJPEG2SD. Para mostrar esta pestaña, en la página **Edit Config** en **Other**, seleccione `Show Camera Hub tab`.  
+
+En la pestaña, introduce la dirección IP de otra cámara y pulsa el botón **Add IP**, aparecerá una pantalla mostrando una imagen de la cámara con su dirección IP superpuesta. Repita el procedimiento para cada cámara que desee supervisar. Pulse sobre una imagen para abrir la página web de esa cámara.  
+
+Pulse el icono **X** en la imagen para eliminar esa dirección IP. Pulse el botón **Borrar todo** para eliminar todas las direcciones IP. Pulse el botón **Refrescar** para actualizar cada pantalla con la última imagen de esa cámara.  
+
+Las direcciones IP se almacenan en la memoria local del navegador, no en la aplicación.
+
 ***************************************************************************************************************************
 
 Este proyecto fue realizado en el marco del curso IoT Essentials Developer impartido por [Codigo IoT](https://www.codigoiot.com/) y organizado por la [Asociación Mexicana del Internet de las Cosas](https://www.asociacioniot.org/).
