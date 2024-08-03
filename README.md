@@ -11,6 +11,7 @@ Crear un sistema de vigilancia la cual nos notifique mediante Telegram si alguie
 * FTDI TTL USB Serial Converter
 * Cables Macho-Hembra
 * Cable USB to Mini USB
+* Tarjeta de memoria Micro SD de 8 GB
 
 
 
@@ -25,3 +26,5 @@ Esta liga la pegaras en el apartado  File > Preferences > Additional Boards Mana
 ESP32CAM detección de movimiento:
 * **EloquentSurveillance** by Simone Salerno
 * **UniversalTelegramBot** by Brian Lough
+
+
